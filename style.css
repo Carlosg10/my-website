@@ -1,18 +1,14 @@
-* {
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html {
-    background-color: #fff;
-    color: #555;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
-    font-size: 200px;
-    text-rendering: optimizeLegibility;
-}
-
-header {
-    background-image: url(home.jpg);
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #153b50;
+  color: #fff;
 }
